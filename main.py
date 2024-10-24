@@ -25,7 +25,7 @@ st.markdown(
 
 
 def main():
-    data_ = pd.read_csv('../data/data_2cleaned.csv')
+    data_ = pd.read_csv('data/data_2cleaned.csv')
     data_ = data_.drop(columns = ['Unnamed: 0'])
     data_['Outlook'] = np.where(data_['Future Return']>0.04, 1, 0)
     # Data split
@@ -177,7 +177,7 @@ def main():
 
 def page_one():
     # Select company for detailed analysis
-    data_ = pd.read_csv('../data/data_2cleaned.csv')
+    data_ = pd.read_csv('data/data_2cleaned.csv')
     data_ = data_.drop(columns = ['Unnamed: 0'])
     data_['Outlook'] = np.where(data_['Future Return']>0.04, 1, 0)
 
@@ -264,7 +264,7 @@ def page_two():
     # Uncomment and adjust the following line based on your data
     # data_ = pd.read_csv('your_data_file.csv')
 
-    results_df = pd.read_csv('../results/optimized_model_comparison.csv')
+    results_df = pd.read_csv('results/optimized_model_comparison.csv')
 
     st.header("---- Annual Return ----")
     # Load and display saved plots for each model
