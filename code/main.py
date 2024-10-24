@@ -25,7 +25,7 @@ st.markdown(
 
 
 def main():
-    data_ = pd.read_csv('/Users/rishikumra/Downloads/Projects/sentiment-analysis-sec-master/data/data_2cleaned.csv')
+    data_ = pd.read_csv('../data/data_2cleaned.csv')
     data_ = data_.drop(columns = ['Unnamed: 0'])
     data_['Outlook'] = np.where(data_['Future Return']>0.04, 1, 0)
     # Data split
@@ -177,7 +177,7 @@ def main():
 
 def page_one():
     # Select company for detailed analysis
-    data_ = pd.read_csv('/Users/rishikumra/Downloads/Projects/sentiment-analysis-sec-master/data/data_2cleaned.csv')
+    data_ = pd.read_csv('../data/data_2cleaned.csv')
     data_ = data_.drop(columns = ['Unnamed: 0'])
     data_['Outlook'] = np.where(data_['Future Return']>0.04, 1, 0)
 
@@ -264,7 +264,7 @@ def page_two():
     # Uncomment and adjust the following line based on your data
     # data_ = pd.read_csv('your_data_file.csv')
 
-    results_df = pd.read_csv('/Users/rishikumra/Downloads/Projects/sentiment-analysis-sec-master/results/optimized_model_comparison.csv')
+    results_df = pd.read_csv('../results/optimized_model_comparison.csv')
 
     st.header("---- Annual Return ----")
     # Load and display saved plots for each model
@@ -278,7 +278,7 @@ def page_two():
         except FileNotFoundError:
             st.write(f"No plot found for {model_name}")
         
-        predictions_df = pd.read_csv(f"/Users/rishikumra/Downloads/Projects/sentiment-analysis-sec-master/results/{model_name.replace(' ', '_')}_predictions.csv")
+        predictions_df = pd.read_csv(f"../results/{model_name.replace(' ', '_')}_predictions.csv")
         st.subheader(f"{model_name} Predictions")
         st.write(predictions_df.head(10)) 
 
