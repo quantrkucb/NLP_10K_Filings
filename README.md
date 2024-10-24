@@ -1,9 +1,8 @@
   
 \## Data  
 The dataset consists of 10K filings for four selected stocks (names can
-be specified) from 2014 to 2019. The raw data is sourced from \[insert
-data source\], and sentiment analysis is performed using NLP techniques
-to derive sentiment scores for each filing.  
+be specified) from 2014 to 2019. The raw data is sourced from EDGAR, and sentiment analysis is performed using NLP techniques
+to derive sentiment scores for each filing. 
   
 \## Sentiment Analysis  
 Sentiment analysis is conducted using \[insert specific NLP libraries
@@ -47,9 +46,6 @@ saved plots and tables can also be found in the \`results\` directory.
 - Jupyter Notebook  
   
 \## Installation  
-To set up the project, clone this repository and install the required
-dependencies:  
+To set up the project, clone this repository:
 \`\`\`bash  
-git clone https://github.com/yourusername/your-repo.git  
-cd your-repo  
-pip install -r requirements.txt
+git clone https://github.com/quantrkucb/NLP_10K_Filings.git
