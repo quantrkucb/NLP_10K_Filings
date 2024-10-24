@@ -5,8 +5,7 @@ be specified) from 2014 to 2019. The raw data is sourced from EDGAR, and sentime
 to derive sentiment scores for each filing. 
   
 \## Sentiment Analysis  
-Sentiment analysis is conducted using \[insert specific NLP libraries
-used, e.g., NLTK, SpaCy, etc.\]. The sentiment scores derived include:  
+Sentiment analysis is conducted using NLTK, SpacY and Mcdonald's word dictionary. The sentiment scores derived include:  
 - \*\*Litigious Score\*\*  
 - \*\*Superfluous Score\*\*  
 - \*\*Interesting Score\*\*  
