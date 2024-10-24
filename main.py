@@ -278,7 +278,7 @@ def page_two():
         except FileNotFoundError:
             st.write(f"No plot found for {model_name}")
         
-        predictions_df = pd.read_csv(f"../results/{model_name.replace(' ', '_')}_predictions.csv")
+        predictions_df = pd.read_csv(f"results/{model_name.replace(' ', '_')}_predictions.csv")
         st.subheader(f"{model_name} Predictions")
         st.write(predictions_df.head(10)) 
 
