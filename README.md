@@ -1,7 +1,7 @@
-Please visit https://nlp10kfilingsrk.streamlit.app/ for the Interactive Dashboard.
+Streamlit Dashboard: https://nlp10kfilingsrk.streamlit.app/
 
-## NLP on 10K Filings Project 
-(Rishi Kumra)
+## NLP on 10K Filings Project by Rishi K
+Streamlit Dashboard: https://nlp10kfilingsrk.streamlit.app/
 
 ## Data  
 The dataset consists of 10K filings for four selected stocks (names can be specified) from 2014 to 2019. The raw data is sourced from EDGAR, and sentiment analysis is performed using NLP techniques to derive sentiment scores for each filing. 
