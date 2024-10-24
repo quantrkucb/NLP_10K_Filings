@@ -271,7 +271,7 @@ def page_two():
     model_names = results_df['Model'].unique()
     for model_name in model_names:
         # Load and display the corresponding plot
-        image_path = f"/Users/rishikumra/Downloads/Projects/sentiment-analysis-sec-master/results/{model_name.replace(' ', '_')}_actual_vs_predicted.png"
+        image_path = f"results/{model_name.replace(' ', '_')}_actual_vs_predicted.png"
         try:
             image = Image.open(image_path)
             st.image(image, caption=f"{model_name}: Actual vs Predicted")
