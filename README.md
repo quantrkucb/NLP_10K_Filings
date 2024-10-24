@@ -26,7 +26,9 @@ return for the following year based on the sentiment scores.
   
 Algorithms used include:  
 - Logistic Regression  
-- Random Forest Classifier  
+- Random Forest Classifier
+- Support Vector Classifier
+- Linear Regression
 - Gradient Boosting Regressor  
   
 \## Results  
