@@ -1,0 +1,4 @@
+Model,MSE,R² Score
+Optimized Linear Regression,0.30977044878188437,-1.0596269828010376
+Optimized Random Forest Regression,0.17338013544480882,-0.15278396195651012
+Optimized Gradient Boosting Regression,0.14139970074200942,0.05985015629009893
