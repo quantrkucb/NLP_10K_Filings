@@ -1,3 +1,8 @@
+
+Please visit https://nlp10kfilingsrk.streamlit.app/ for the Interactive Dashboard.
+
+
+---NLP on 10K Filings Project (Rishi Kumra) ---
   
 \## Data  
 The dataset consists of 10K filings for four selected stocks (names can
